@@ -10,11 +10,15 @@
   padding: 7px;
   justify-content: center;
   margin-bottom: 1px;
+  margin-right: 10px;
 }
 
 .right {
   text-align: start;
   line-height: 1;
+
+  
+  
 }
 
 /*flex property is used to set flexible length on flexible items.*/
@@ -24,6 +28,7 @@ body,
   flex-direction: row;
   justify-content: center;
   margin-left: 10px;
+
 }
 
 /* @media is used to make the page responsive and create different layouts depending on the size of the viewport*/
@@ -43,6 +48,7 @@ h2 {
     background-color: rgba(206, 213, 218, 0.326);
     font-size: 0.9em;
     padding-left: 2px;
+    margin-left: 10px;
     }
   
   h2 strong {
@@ -58,6 +64,7 @@ h2 {
     
     font-size: 0.9em;
     padding: 5px;
+    padding-left: 10px;
   }
   
   li {
@@ -93,6 +100,7 @@ h2 {
   
   .lineheight{
     line-height: 1.1;
+    
   }
   
   body {
