@@ -34,3 +34,68 @@ body,
     justify-content: center;
   }
 }
+
+h2 {
+    font-family: "serif";
+    margin-top: 0;
+    letter-spacing: 0.3em;
+    font-weight: 600;
+    background-color: rgba(206, 213, 218, 0.326);
+    font-size: 0.9em;
+    padding-left: 2px;
+    }
+  
+  h2 strong {
+      font-size: 1.5em;
+      color: black;
+      
+    }
+  h1 {
+    font-weight: 300;
+  }
+  
+  p {
+    
+    font-size: 0.9em;
+    padding: 5px;
+  }
+  
+  li {
+    list-style-type: none;
+    margin-bottom: 1em;
+  }
+  
+  
+  p,
+  li {
+    font-family: Georgia;
+  }
+  
+  
+  ul {
+    padding-left: 20px;
+    font-size: 0.9em;
+    line-height: 0.8;
+  }
+  
+  
+  table {
+    border: 3px solid rgba(206, 213, 218, 0.44);
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table,
+  td,
+  th,tr {
+    text-align: center;
+  }
+  
+  .lineheight{
+    line-height: 1.1;
+  }
+  
+  body {
+    padding: 5%;
+  }
+    
