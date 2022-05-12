@@ -1,16 +1,36 @@
 /* making round image*/
 .image {
-    border-radius: 50%;
-    padding-top: 5px;
-  }
-  
-  .left{
-    text-align: center;
-    background-color: rgba(206, 213, 218, 0.44);
-    padding: 7px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.left {
+  text-align: center;
+  background-color: rgba(206, 213, 218, 0.44);
+  padding: 7px;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+
+.right {
+  text-align: start;
+  line-height: 1;
+}
+
+/*flex property is used to set flexible length on flexible items.*/
+body,
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+/* @media is used to make the page responsive and create different layouts depending on the size of the viewport*/
+@media only screen and (max-width: 800px) {
+  body,
+  .right {
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 1px;
-    
-    
-   
   }
+}
