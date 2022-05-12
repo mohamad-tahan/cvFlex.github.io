@@ -1,0 +1,16 @@
+/* making round image*/
+.image {
+    border-radius: 50%;
+    padding-top: 5px;
+  }
+  
+  .left{
+    text-align: center;
+    background-color: rgba(206, 213, 218, 0.44);
+    padding: 7px;
+    justify-content: center;
+    margin-bottom: 1px;
+    
+    
+   
+  }
